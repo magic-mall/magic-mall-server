@@ -7,9 +7,12 @@ yarn.lock
 coverage/
 dist/
 .idea/
+run/
 .DS_Store
 *.sw*
 *.un~
 .tsbuildinfo
 .tsbuildinfo.*
 .env
+logs/
+run/

@@ -44,10 +44,6 @@
     },
     "swaggerPath": "E:\\Midway\\midway-test\\src\\config\\config.default.ts"
   },
-  "jwt": {
-    "secret": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
-    "expiresIn": "E:\\Midway\\midway-test\\src\\config\\config.default.ts"
-  },
   "security": {
     "csrf": "E:\\Midway\\midway-test\\src\\config\\config.local.ts",
     "domainWhiteList": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js",
@@ -170,7 +166,7 @@
       "lint:fix": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
       "ci": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
       "build": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
-      "db:generate": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+      "model": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
     },
     "midway-bin-clean": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
     "repository": {

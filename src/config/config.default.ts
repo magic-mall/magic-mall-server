@@ -1,12 +1,3 @@
-/*
- * @Descripttion:
- * @version:
- * @Author: MiKin
- * @Date: 2022-03-21 20:27:38
- * @LastEditors: MiKin
- * @LastEditTime: 2022-03-22 15:51:17
- * @FilePath: \midway-test\src\config\config.default.ts
- */
 import { MidwayConfig, MidwayAppInfo } from "@midwayjs/core";
 import * as dotenv from "dotenv";
 dotenv.config();
@@ -50,10 +41,6 @@ export default (appInfo: MidwayAppInfo) => {
         url: "https://www.apache.org/licenses/LICENSE-2.0.html",
       },
       swaggerPath: "/docs",
-    },
-    jwt: {
-      secret: JWT_SECRET, // fs.readFileSync('xxxxx.key')
-      expiresIn: "2d", // https://github.com/vercel/ms
     },
     // security: {
     //   csrf: false,
