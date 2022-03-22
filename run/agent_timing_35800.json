@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Process Start",
+    "start": 1647933420030,
+    "end": 1647933425396,
+    "duration": 5366,
+    "pid": 35800,
+    "index": 0
+  },
+  {
+    "name": "Application Start",
+    "start": 1647933425397,
+    "end": 1647933425549,
+    "duration": 152,
+    "pid": 35800,
+    "index": 1
+  },
+  {
+    "name": "Load Plugin",
+    "start": 1647933425408,
+    "end": 1647933425436,
+    "duration": 28,
+    "pid": 35800,
+    "index": 2
+  },
+  {
+    "name": "Load Config",
+    "start": 1647933425436,
+    "end": 1647933425462,
+    "duration": 26,
+    "pid": 35800,
+    "index": 3
+  },
+  {
+    "name": "Require(0) config/config.default.ts",
+    "start": 1647933425441,
+    "end": 1647933425441,
+    "duration": 0,
+    "pid": 35800,
+    "index": 4
+  },
+  {
+    "name": "Require(1) config/config.local.ts",
+    "start": 1647933425442,
+    "end": 1647933425442,
+    "duration": 0,
+    "pid": 35800,
+    "index": 5
+  },
+  {
+    "name": "Require(2) E:/Midway/midway-test/node_modules/egg-session/config/config.default.js",
+    "start": 1647933425443,
+    "end": 1647933425444,
+    "duration": 1,
+    "pid": 35800,
+    "index": 6
+  },
+  {
+    "name": "Require(3) E:/Midway/midway-test/node_modules/egg-security/config/config.default.js",
+    "start": 1647933425444,
+    "end": 1647933425448,
+    "duration": 4,
+    "pid": 35800,
+    "index": 7
+  },
+  {
+    "name": "Require(4) E:/Midway/midway-test/node_modules/egg-jsonp/config/config.default.js",
+    "start": 1647933425449,
+    "end": 1647933425451,
+    "duration": 2,
+    "pid": 35800,
+    "index": 8
+  },
+  {
+    "name": "Require(5) E:/Midway/midway-test/node_modules/egg-onerror/config/config.default.js",
+    "start": 1647933425452,
+    "end": 1647933425453,
+    "duration": 1,
+    "pid": 35800,
+    "index": 9
+  },
+  {
+    "name": "Require(6) E:/Midway/midway-test/node_modules/egg/config/config.default.js",
+    "start": 1647933425454,
+    "end": 1647933425455,
+    "duration": 1,
+    "pid": 35800,
+    "index": 10
+  },
+  {
+    "name": "Require(7) E:/Midway/midway-test/node_modules/@midwayjs/web/dist/config/config.default.js",
+    "start": 1647933425457,
+    "end": 1647933425457,
+    "duration": 0,
+    "pid": 35800,
+    "index": 11
+  },
+  {
+    "name": "Require(8) config/config.default.ts",
+    "start": 1647933425458,
+    "end": 1647933425458,
+    "duration": 0,
+    "pid": 35800,
+    "index": 12
+  },
+  {
+    "name": "Require(9) E:/Midway/midway-test/node_modules/egg-security/config/config.local.js",
+    "start": 1647933425459,
+    "end": 1647933425460,
+    "duration": 1,
+    "pid": 35800,
+    "index": 13
+  },
+  {
+    "name": "Require(10) E:/Midway/midway-test/node_modules/egg/config/config.local.js",
+    "start": 1647933425461,
+    "end": 1647933425461,
+    "duration": 0,
+    "pid": 35800,
+    "index": 14
+  },
+  {
+    "name": "Require(11) E:/Midway/midway-test/node_modules/@midwayjs/web/dist/config/config.local.js",
+    "start": 1647933425461,
+    "end": 1647933425461,
+    "duration": 0,
+    "pid": 35800,
+    "index": 15
+  },
+  {
+    "name": "Require(12) config/config.local.ts",
+    "start": 1647933425462,
+    "end": 1647933425462,
+    "duration": 0,
+    "pid": 35800,
+    "index": 16
+  },
+  {
+    "name": "Before Start in node_modules/@midwayjs/web/dist/base.js:235:22",
+    "start": 1647933425463,
+    "end": 1647933425547,
+    "duration": 84,
+    "pid": 35800,
+    "index": 17
+  },
+  {
+    "name": "Load extend/agent.js",
+    "start": 1647933425478,
+    "end": 1647933425505,
+    "duration": 27,
+    "pid": 35800,
+    "index": 18
+  },
+  {
+    "name": "Require(13) E:/Midway/midway-test/node_modules/egg-security/app/extend/agent.js",
+    "start": 1647933425479,
+    "end": 1647933425481,
+    "duration": 2,
+    "pid": 35800,
+    "index": 19
+  },
+  {
+    "name": "Require(14) E:/Midway/midway-test/node_modules/egg-mock/app/extend/agent.js",
+    "start": 1647933425483,
+    "end": 1647933425501,
+    "duration": 18,
+    "pid": 35800,
+    "index": 20
+  },
+  {
+    "name": "Require(15) E:/Midway/midway-test/node_modules/@midwayjs/web/app/extend/agent.js",
+    "start": 1647933425502,
+    "end": 1647933425503,
+    "duration": 1,
+    "pid": 35800,
+    "index": 21
+  },
+  {
+    "name": "Load extend/context.js",
+    "start": 1647933425505,
+    "end": 1647933425540,
+    "duration": 35,
+    "pid": 35800,
+    "index": 22
+  },
+  {
+    "name": "Require(16) E:/Midway/midway-test/node_modules/egg-security/app/extend/context.js",
+    "start": 1647933425506,
+    "end": 1647933425525,
+    "duration": 19,
+    "pid": 35800,
+    "index": 23
+  },
+  {
+    "name": "Require(17) E:/Midway/midway-test/node_modules/egg-jsonp/app/extend/context.js",
+    "start": 1647933425526,
+    "end": 1647933425530,
+    "duration": 4,
+    "pid": 35800,
+    "index": 24
+  },
+  {
+    "name": "Require(18) E:/Midway/midway-test/node_modules/egg/app/extend/context.js",
+    "start": 1647933425531,
+    "end": 1647933425535,
+    "duration": 4,
+    "pid": 35800,
+    "index": 25
+  },
+  {
+    "name": "Require(19) E:/Midway/midway-test/node_modules/@midwayjs/web/app/extend/context.js",
+    "start": 1647933425536,
+    "end": 1647933425538,
+    "duration": 2,
+    "pid": 35800,
+    "index": 26
+  },
+  {
+    "name": "Load agent.js",
+    "start": 1647933425540,
+    "end": 1647933425546,
+    "duration": 6,
+    "pid": 35800,
+    "index": 27
+  },
+  {
+    "name": "Require(20) E:/Midway/midway-test/node_modules/egg-security/agent.js",
+    "start": 1647933425540,
+    "end": 1647933425541,
+    "duration": 1,
+    "pid": 35800,
+    "index": 28
+  },
+  {
+    "name": "Require(21) E:/Midway/midway-test/node_modules/egg-onerror/agent.js",
+    "start": 1647933425543,
+    "end": 1647933425544,
+    "duration": 1,
+    "pid": 35800,
+    "index": 29
+  },
+  {
+    "name": "Require(22) E:/Midway/midway-test/node_modules/egg/agent.js",
+    "start": 1647933425544,
+    "end": 1647933425545,
+    "duration": 1,
+    "pid": 35800,
+    "index": 30
+  },
+  {
+    "name": "Require(23) E:/Midway/midway-test/node_modules/@midwayjs/web/agent.js",
+    "start": 1647933425546,
+    "end": 1647933425546,
+    "duration": 0,
+    "pid": 35800,
+    "index": 31
+  },
+  {
+    "name": "Did Load in E:/Midway/midway-test/node_modules/@midwayjs/web/agent.js:didLoad",
+    "start": 1647933425547,
+    "end": 1647933425547,
+    "duration": 0,
+    "pid": 35800,
+    "index": 32
+  },
+  {
+    "name": "Will Ready in E:/Midway/midway-test/node_modules/@midwayjs/web/agent.js:willReady",
+    "start": 1647933425548,
+    "end": 1647933425548,
+    "duration": 0,
+    "pid": 35800,
+    "index": 33
+  }
+]

@@ -7,7 +7,6 @@ yarn.lock
 coverage/
 dist/
 .idea/
-run/
 .DS_Store
 *.sw*
 *.un~

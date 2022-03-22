@@ -1,0 +1,292 @@
+{
+  "keys": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+  "egg": {
+    "port": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+    "dumpConfig": "E:\\Midway\\midway-test\\node_modules\\@midwayjs\\web\\dist\\config\\config.default.js",
+    "contextLoggerFormat": "E:\\Midway\\midway-test\\node_modules\\@midwayjs\\web\\dist\\config\\config.default.js",
+    "plugins": {
+      "egg-mock": {
+        "enable": "E:\\Midway\\midway-test\\node_modules\\@midwayjs\\web\\dist\\config\\config.local.js",
+        "package": "E:\\Midway\\midway-test\\node_modules\\@midwayjs\\web\\dist\\config\\config.local.js"
+      }
+    }
+  },
+  "sequelize": {
+    "options": {
+      "database": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+      "username": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+      "password": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+      "host": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+      "port": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+      "encrypt": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+      "dialect": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+      "define": {
+        "charset": "E:\\Midway\\midway-test\\src\\config\\config.default.ts"
+      },
+      "timezone": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+      "logging": "E:\\Midway\\midway-test\\src\\config\\config.default.ts"
+    },
+    "sync": "E:\\Midway\\midway-test\\src\\config\\config.default.ts"
+  },
+  "swagger": {
+    "title": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+    "description": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+    "version": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+    "termsOfService": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+    "contact": {
+      "name": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+      "url": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+      "email": "E:\\Midway\\midway-test\\src\\config\\config.default.ts"
+    },
+    "license": {
+      "name": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+      "url": "E:\\Midway\\midway-test\\src\\config\\config.default.ts"
+    },
+    "swaggerPath": "E:\\Midway\\midway-test\\src\\config\\config.default.ts"
+  },
+  "jwt": {
+    "secret": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+    "expiresIn": "E:\\Midway\\midway-test\\src\\config\\config.default.ts"
+  },
+  "security": {
+    "csrf": "E:\\Midway\\midway-test\\src\\config\\config.local.ts",
+    "domainWhiteList": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "E:\\Midway\\midway-test\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "E:\\Midway\\midway-test\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\Midway\\midway-test\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "E:\\Midway\\midway-test\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "E:\\Midway\\midway-test\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "E:\\Midway\\midway-test\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\Midway\\midway-test\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\Midway\\midway-test\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "E:\\Midway\\midway-test\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\Midway\\midway-test\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "E:\\Midway\\midway-test\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "env": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+  "name": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "version": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "description": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "private": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "@midwayjs/bootstrap": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/core": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/decorator": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/jwt": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/passport": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/sequelize": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/swagger": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/web": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "dotenv": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "egg": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "mysql2": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "passport": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "passport-jwt": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "sequelize": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "sequelize-typescript": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "sequelize-typescript-generator": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "swagger-ui-dist": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "@midwayjs/cli": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/egg-ts-helper": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/mock": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "@types/jest": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "@types/node": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "cross-env": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "jest": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "mwts": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "ts-jest": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "typescript": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "dev": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "test": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "cov": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "lint": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "lint:fix": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "ci": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "build": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "db:generate": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "midway-bin-clean": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "repository": {
+      "type": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "url": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "license": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "E:\\Midway\\midway-test\\node_modules\\@midwayjs\\web\\dist\\config\\config.default.js",
+  "dump": {
+    "ignore": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "cacheControl": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "strict": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "depth": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "env": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "level": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "enablePerformanceTimer": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "logging": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "port": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "E:\\Midway\\midway-test\\node_modules\\egg\\config\\config.default.js",
+  "midwayLogger": {
+    "clients": {
+      "appLogger": {
+        "fileLogName": "E:\\Midway\\midway-test\\node_modules\\@midwayjs\\web\\dist\\config\\config.default.js",
+        "aliasName": "E:\\Midway\\midway-test\\node_modules\\@midwayjs\\web\\dist\\config\\config.default.js"
+      },
+      "agentLogger": {
+        "fileLogName": "E:\\Midway\\midway-test\\node_modules\\@midwayjs\\web\\dist\\config\\config.default.js"
+      }
+    }
+  },
+  "pluginOverwrite": "E:\\Midway\\midway-test\\node_modules\\@midwayjs\\web\\dist\\config\\config.default.js",
+  "alinode": {
+    "logdir": "E:\\Midway\\midway-test\\node_modules\\@midwayjs\\web\\dist\\config\\config.default.js",
+    "error_log": "E:\\Midway\\midway-test\\node_modules\\@midwayjs\\web\\dist\\config\\config.default.js",
+    "packages": "E:\\Midway\\midway-test\\node_modules\\@midwayjs\\web\\dist\\config\\config.default.js"
+  }
+}
