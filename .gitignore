@@ -14,5 +14,3 @@ run/
 .tsbuildinfo
 .tsbuildinfo.*
 .env
-logs/
-run/
