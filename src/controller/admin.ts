@@ -3,15 +3,15 @@
  * @version:
  * @Author: MiKin
  * @Date: 2022-03-22 20:23:26
- * @LastEditors: MiKin
- * @LastEditTime: 2022-03-22 21:07:53
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-03-23 19:01:41
  * @FilePath: \midway-test\src\controller\admin.ts
  */
 import { ApiProperty, ApiHeader } from "@midwayjs/swagger";
 import { Context } from "@midwayjs/web";
 import { Controller, Post, Inject, Body } from "@midwayjs/decorator";
 import { AdminService } from "../service/admin";
-import { LoginOptions } from "../interface";
+import { AdminLoginResponse } from "../interface";
 
 @Controller("/admin")
 export class HomeController {
@@ -29,7 +29,7 @@ export class HomeController {
   })
   age: number;
   @Post("/login")
-  async login(@Body() Body: LoginOptions) {
+  async login(@Body() Body: AdminLoginResponse) {
     try {
       const result = await this.adminService.login(Body)
       return {

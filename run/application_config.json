@@ -324,6 +324,14 @@
       },
       "swaggerPath": "/docs"
     },
+    "jwt": {
+      "secret": "<String len: 15>",
+      "expiresIn": "2d"
+    },
+    "passport": {
+      "session": false,
+      "userProperty": "user"
+    },
     "coreMiddlewares": [
       "meta",
       "siteFile",

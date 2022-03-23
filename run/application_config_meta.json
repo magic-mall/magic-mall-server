@@ -44,6 +44,13 @@
     },
     "swaggerPath": "E:\\Midway\\midway-test\\src\\config\\config.default.ts"
   },
+  "jwt": {
+    "secret": "E:\\Midway\\midway-test\\src\\config\\config.default.ts",
+    "expiresIn": "E:\\Midway\\midway-test\\src\\config\\config.default.ts"
+  },
+  "passport": {
+    "session": "E:\\Midway\\midway-test\\src\\config\\config.default.ts"
+  },
   "security": {
     "csrf": "E:\\Midway\\midway-test\\src\\config\\config.local.ts",
     "domainWhiteList": "E:\\Midway\\midway-test\\node_modules\\egg-security\\config\\config.default.js",

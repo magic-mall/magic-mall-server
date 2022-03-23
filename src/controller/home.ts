@@ -1,11 +1,15 @@
 import { Context } from "egg";
-import { Controller, Get, Inject, Query } from "@midwayjs/decorator";
+import { Controller, Get, Inject, Query, Post } from "@midwayjs/decorator";
 import { UserService } from "../service/user";
-
+import { JwtService } from "@midwayjs/jwt";
+import { JwtPassportMiddleware } from "../middleware/jwt.middleware";
 @Controller("/")
 export class HomeController {
   @Inject()
   ctx: Context;
+
+  @Inject()
+  jwt: JwtService;
 
   @Inject()
   userService: UserService;
@@ -26,5 +30,19 @@ export class HomeController {
     } catch (e) {
       return e;
     }
+  }
+
+  @Post("/passport", { middleware: [JwtPassportMiddleware] })
+  async jwtPassport() {
+    return {
+      text: "Hello Midway",
+    };
+  }
+
+  @Post("/jwt")
+  async genJwt() {
+    return {
+      t: await this.jwt.sign({ msg: "Hello Midway" }),
+    };
   }
 }

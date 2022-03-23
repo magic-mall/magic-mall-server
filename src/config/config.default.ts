@@ -42,6 +42,13 @@ export default (appInfo: MidwayAppInfo) => {
       },
       swaggerPath: "/docs",
     },
+    jwt: {
+      secret: 'songdaochuanshu', // fs.readFileSync('xxxxx.key')
+      expiresIn: '2d'   // https://github.com/vercel/ms
+    },
+    passport: {
+      session: false,
+    }
     // security: {
     //   csrf: false,
     // },
