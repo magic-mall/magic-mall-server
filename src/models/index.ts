@@ -1,5 +1,3 @@
-
-import { BaseTable } from "@midwayjs/sequelize";
 export * from "./address";
 export * from "./admin";
 export * from "./cart";

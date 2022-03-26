@@ -28,6 +28,7 @@ const { DATABASE, DB_USERNAME, DB_PASSWORD } = process.env;
       clean: true,
       outDir: "./src/models",
     },
+    clean: true,
     strict: true,
   };
 
@@ -44,13 +45,15 @@ const { DATABASE, DB_USERNAME, DB_PASSWORD } = process.env;
       const filePath = path.join(modelFilePath, file);
       const fileContent = fs.readFileSync(filePath, "utf8");
       const newFileContent = fileContent.replace(/@Table/, "@BaseTable");
-      fs.writeFileSync(
-        filePath,
-        `
+      if (file !== "index.ts") {
+        fs.writeFileSync(
+          filePath,
+          `
 import { BaseTable } from "@midwayjs/sequelize";
 ${newFileContent}
 `
-      );
+        );
+      }
     });
   } catch (err) {
     console.error(err);

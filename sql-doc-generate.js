@@ -40,13 +40,13 @@ const magicEggFile = path.join(__dirname, "./magic-egg.md");
 const magicEggFileExists = fs.existsSync(magicEggFile);
 if (!magicEggFileExists) {
   fs.writeFileSync(magicEggFile, "");
+}else{
+  fs.unlinkSync(magicEggFile);
+  fs.writeFileSync(magicEggFile, "");
 }
 
 child.exec(
-  `${filePath} -u ${DB_USERNAME} -p ${DB_PASSWORD} -d ${DATABASE} -P ${PORT} -h ${HOST} -o ${path.join(
-    __dirname,
-    "magic-egg.md"
-  )}`,
+  `${filePath} -u ${DB_USERNAME} -p ${DB_PASSWORD} -d ${DATABASE} -P ${PORT} -h ${HOST} -o ${magicEggFile}`,
   (err, stdout, stderr) => {
     console.log(err, stdout, stderr);
   }
