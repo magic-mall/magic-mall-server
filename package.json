@@ -47,7 +47,8 @@
     "lint:fix": "mwts fix",
     "ci": "npm run cov",
     "build": "midway-bin build -c",
-    "model": "node model-generate.js"
+    "sql/model": "node model-generate.js",
+    "sql/doc": "node sql-doc-generate.js"
   },
   "midway-bin-clean": [
     ".vscode/.tsbuildinfo",
